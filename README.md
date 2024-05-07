@@ -50,10 +50,11 @@ As an alternative there's a more grey hat option I don't technically endorse - a
 
 I've put together an *educational purposes* scraper that does just this. Imperfectly might I add as sometimes you've got to run keywords multiple times. But it'll get the job done. 
 
-[Google 1st Result Scraper]()
+[Google 1st Result Scraper](https://github.com/krutzar/topic-cluster-creation/blob/main/organic_result_scraper.py)
 ### Sorting and Organizing Your Keyword and URL Results
 This step is the most hands on and where you start to actually build your cluster. Once you've got all your keywords and results, you can make a simple count function in excel to see how many times a URL is appearing in your list. Then sort columns in this order: Count high to low, URL alphabetical, MSV high to low. 
-![[Pasted image 20240111142746.png]]
+![Pasted image 20240111142746](https://github.com/krutzar/topic-cluster-creation/assets/28541671/8a932bc8-f9ee-463c-a4dd-e2d47ec38ac3)
+
 
 This sorts so that the pages responsible for the most of the keywords are at the top of your page, and so that within each page keywords are sorted high to low. The URL alphabetical sort then means that if two pages have the same number of ranking keywords in the list, you'll still keep those pages separate. 
 
@@ -77,10 +78,8 @@ And bingo, you've got a pretty robust cluster built out.
 #### Results and Insights
 - Example Spreadsheet With All Steps of the Process
 #### Resources Mentioned / Used
-- Google Search API
-- Google Result Scraper
-- Semrush
-- Kyle Roof & Matt Diggity
+- [Google Search API](https://developers.google.com/custom-search/v1/overview)
+- [Google Result Scraper](https://github.com/krutzar/topic-cluster-creation/blob/main/organic_result_scraper.py)
 
 
 
